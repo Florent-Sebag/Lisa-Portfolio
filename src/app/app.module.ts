@@ -4,15 +4,22 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { IdVisuComponent } from './pages/id-visu/id-visu.component';
+import { RouterModule, Routes } from '@angular/router';
+import { appRouteList } from './app-routing/app-routing.module'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent,
+    IdVisuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRouteList)
   ],
   providers: [],
   bootstrap: [AppComponent]

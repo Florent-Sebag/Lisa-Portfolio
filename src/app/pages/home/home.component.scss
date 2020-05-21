@@ -17,9 +17,31 @@
 .img-cactus {
   height:70vh;
   object-fit: cover;
+  width: 100%;
+  object-position: 0% 60%;
 }
 
 .main-title-text {
   padding: 5px;
   font-size: 2.6em;
+}
+
+.category-elem {
+  height: inherit;
+  text-align: center;
+  height:35vh;
+}
+
+.img-category {
+  height: 90%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.span-img-category {
+  position: relative;
+  top:-1.5em;
+  width:80%;
+  left:50%;
+  transform: translateX(-50%);
 }
