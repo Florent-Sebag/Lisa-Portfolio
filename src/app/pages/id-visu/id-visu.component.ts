@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-id-visu',
@@ -9,7 +9,7 @@ export class IdVisuComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() : void {
   }
 
 }

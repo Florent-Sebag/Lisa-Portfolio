@@ -7,7 +7,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { IdVisuComponent } from './pages/id-visu/id-visu.component';
 import { RouterModule, Routes } from '@angular/router';
-import { appRouteList } from './app-routing/app-routing.module'
+import { appRouteList } from './app-routing/app-routing.module';
+import { WebComponent } from './pages/web/web.component';
+import { PrintComponent } from './pages/print/print.component';
+import { CmxRaceComponent } from './pages/id-visu/more/cmx-race/cmx-race.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { appRouteList } from './app-routing/app-routing.module'
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    IdVisuComponent
+    IdVisuComponent,
+    WebComponent,
+    PrintComponent,
+    CmxRaceComponent
   ],
   imports: [
     BrowserModule,
