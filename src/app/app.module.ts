@@ -9,7 +9,8 @@ import { IdVisuComponent } from './pages/id-visu/id-visu.component';
 import { RouterModule, Routes } from '@angular/router';
 import { appRouteList } from './app-routing/app-routing.module';
 import { WebComponent } from './pages/web/web.component';
-import { PrintComponent } from './pages/print/print.component'
+import { PrintComponent } from './pages/print/print.component';
+import { CmxRaceComponent } from './pages/id-visu/more/cmx-race/cmx-race.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PrintComponent } from './pages/print/print.component'
     FooterComponent,
     IdVisuComponent,
     WebComponent,
-    PrintComponent
+    PrintComponent,
+    CmxRaceComponent
   ],
   imports: [
     BrowserModule,
