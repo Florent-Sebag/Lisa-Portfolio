@@ -10,7 +10,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { appRouteList } from './app-routing/app-routing.module';
 import { WebComponent } from './pages/web/web.component';
 import { PrintComponent } from './pages/print/print.component';
-import { CmxRaceComponent } from './pages/id-visu/more/cmx-race/cmx-race.component'
+import { CmxRaceComponent } from './pages/id-visu/more/cmx-race/cmx-race.component';
+import { SaintFideleComponent } from './pages/id-visu/more/saint-fidele/saint-fidele.component';
+import { WorldPastaDayComponent } from './pages/id-visu/more/world-pasta-day/world-pasta-day.component';
+import { TypographieComponent } from './pages/id-visu/more/typographie/typographie.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { CmxRaceComponent } from './pages/id-visu/more/cmx-race/cmx-race.compone
     IdVisuComponent,
     WebComponent,
     PrintComponent,
-    CmxRaceComponent
+    CmxRaceComponent,
+    SaintFideleComponent,
+    WorldPastaDayComponent,
+    TypographieComponent
   ],
   imports: [
     BrowserModule,
