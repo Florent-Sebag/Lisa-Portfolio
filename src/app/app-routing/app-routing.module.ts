@@ -5,6 +5,9 @@ import { HomeComponent } from '../pages/home/home.component';
 import { WebComponent } from '../pages/web/web.component';
 import { PrintComponent } from '../pages/print/print.component';
 import { CmxRaceComponent } from '../pages/id-visu/more/cmx-race/cmx-race.component';
+import { SaintFideleComponent } from '../pages/id-visu/more/saint-fidele/saint-fidele.component';
+import { TypographieComponent } from '../pages/id-visu/more/typographie/typographie.component';
+import { WorldPastaDayComponent } from '../pages/id-visu/more/world-pasta-day/world-pasta-day.component';
 
 export const appRouteList: Routes = [
   { path: '', component: HomeComponent },
@@ -15,6 +18,9 @@ export const appRouteList: Routes = [
 
   { path: 'portfolio/identites-visuelles', component: IdVisuComponent },
   { path: 'portfolio/identites-visuelles/more/cmx-race', component: CmxRaceComponent },
+  { path: 'portfolio/identites-visuelles/more/saint-fidele', component: SaintFideleComponent },
+  { path: 'portfolio/identites-visuelles/more/typographie', component: TypographieComponent },
+  { path: 'portfolio/identites-visuelles/more/world-pasta-day', component: WorldPastaDayComponent },
 
   { path: 'portfolio/web', component: WebComponent },
 ];
