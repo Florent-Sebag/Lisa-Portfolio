@@ -12,12 +12,30 @@ import { BambouComponent } from '../pages/web/more/bambou/bambou.component';
 import { EmailingComponent } from '../pages/web/more/emailing/emailing.component';
 import { MbrComponent } from '../pages/web/more/mbr/mbr.component';
 import { SuneliaComponent } from '../pages/web/more/sunelia/sunelia.component';
+import { CaisseDepargneComponent } from '../pages/print/more/caisse-depargne/caisse-depargne.component';
+import { CarnetArtistesComponent } from '../pages/print/more/carnet-artistes/carnet-artistes.component';
+import { FetartRueComponent } from '../pages/print/more/fetart-rue/fetart-rue.component';
+import { InbodyComponent } from '../pages/print/more/inbody/inbody.component';
+import { JardinerieComponent } from '../pages/print/more/jardinerie/jardinerie.component';
+import { JoseComponent } from '../pages/print/more/jose/jose.component';
+import { PolynomeComponent } from '../pages/print/more/polynome/polynome.component';
+import { SeptFamillesComponent } from '../pages/print/more/sept-familles/sept-familles.component';
+import { TruismesComponent } from '../pages/print/more/truismes/truismes.component';
 
 export const appRouteList: Routes = [
   { path: '', component: HomeComponent },
 
 
   { path: 'portfolio/print', component: PrintComponent },
+  { path: 'portfolio/print/more/caisse-depargne', component: CaisseDepargneComponent },
+  { path: 'portfolio/print/more/carnet-artistes', component: CarnetArtistesComponent },
+  { path: 'portfolio/print/more/fetart-rue', component: FetartRueComponent },
+  { path: 'portfolio/print/more/inbody', component: InbodyComponent },
+  { path: 'portfolio/print/more/jardinerie', component: JardinerieComponent },
+  { path: 'portfolio/print/more/jose', component: JoseComponent },
+  { path: 'portfolio/print/more/polynome', component: PolynomeComponent },
+  { path: 'portfolio/print/more/sept-familles', component: SeptFamillesComponent },
+  { path: 'portfolio/print/more/truismes', component: TruismesComponent },
 
 
   { path: 'portfolio/identites-visuelles', component: IdVisuComponent },

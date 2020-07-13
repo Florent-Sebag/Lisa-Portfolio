@@ -17,7 +17,16 @@ import { TypographieComponent } from './pages/id-visu/more/typographie/typograph
 import { BambouComponent } from './pages/web/more/bambou/bambou.component';
 import { EmailingComponent } from './pages/web/more/emailing/emailing.component';
 import { MbrComponent } from './pages/web/more/mbr/mbr.component';
-import { SuneliaComponent } from './pages/web/more/sunelia/sunelia.component'
+import { SuneliaComponent } from './pages/web/more/sunelia/sunelia.component';
+import { CaisseDepargneComponent } from './pages/print/more/caisse-depargne/caisse-depargne.component';
+import { CarnetArtistesComponent } from './pages/print/more/carnet-artistes/carnet-artistes.component';
+import { FetartRueComponent } from './pages/print/more/fetart-rue/fetart-rue.component';
+import { InbodyComponent } from './pages/print/more/inbody/inbody.component';
+import { JardinerieComponent } from './pages/print/more/jardinerie/jardinerie.component';
+import { SeptFamillesComponent } from './pages/print/more/sept-familles/sept-familles.component';
+import { JoseComponent } from './pages/print/more/jose/jose.component';
+import { PolynomeComponent } from './pages/print/more/polynome/polynome.component';
+import { TruismesComponent } from './pages/print/more/truismes/truismes.component'
 
 @NgModule({
   declarations: [
@@ -35,7 +44,16 @@ import { SuneliaComponent } from './pages/web/more/sunelia/sunelia.component'
     BambouComponent,
     EmailingComponent,
     MbrComponent,
-    SuneliaComponent
+    SuneliaComponent,
+    CaisseDepargneComponent,
+    CarnetArtistesComponent,
+    FetartRueComponent,
+    InbodyComponent,
+    JardinerieComponent,
+    SeptFamillesComponent,
+    JoseComponent,
+    PolynomeComponent,
+    TruismesComponent
   ],
   imports: [
     BrowserModule,
