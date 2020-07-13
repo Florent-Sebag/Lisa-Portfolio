@@ -13,7 +13,11 @@ import { PrintComponent } from './pages/print/print.component';
 import { CmxRaceComponent } from './pages/id-visu/more/cmx-race/cmx-race.component';
 import { SaintFideleComponent } from './pages/id-visu/more/saint-fidele/saint-fidele.component';
 import { WorldPastaDayComponent } from './pages/id-visu/more/world-pasta-day/world-pasta-day.component';
-import { TypographieComponent } from './pages/id-visu/more/typographie/typographie.component'
+import { TypographieComponent } from './pages/id-visu/more/typographie/typographie.component';
+import { BambouComponent } from './pages/web/more/bambou/bambou.component';
+import { EmailingComponent } from './pages/web/more/emailing/emailing.component';
+import { MbrComponent } from './pages/web/more/mbr/mbr.component';
+import { SuneliaComponent } from './pages/web/more/sunelia/sunelia.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { TypographieComponent } from './pages/id-visu/more/typographie/typograph
     CmxRaceComponent,
     SaintFideleComponent,
     WorldPastaDayComponent,
-    TypographieComponent
+    TypographieComponent,
+    BambouComponent,
+    EmailingComponent,
+    MbrComponent,
+    SuneliaComponent
   ],
   imports: [
     BrowserModule,
