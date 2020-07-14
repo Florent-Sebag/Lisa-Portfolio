@@ -6,6 +6,10 @@
     .container-bg-green {
         padding-bottom: 0.5em!important;
     }
+
+    .mt-10vh {
+        margin-top:5vh;
+    }
   }
 
 @media (min-width: 768px) {
@@ -21,5 +25,9 @@
 
     .container-bg-green {
         height: 60vh;
+    }
+
+    .mt-10vh {
+        margin-top:10vh;
     }
 }
