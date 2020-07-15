@@ -35,3 +35,27 @@
 .font-size-xsmall {
   font-size:0.8rem;
 }
+
+.showhim {
+  cursor: pointer;
+}
+
+.show-me {
+  background-color: rgba(152, 184, 174, 0.85);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+
+.showhim:hover .show-me{
+  visibility: visible;
+  opacity: 1;
+}
+
+.div-absolute-anim {
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

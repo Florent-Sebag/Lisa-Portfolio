@@ -45,3 +45,12 @@
   left:50%;
   transform: translateX(-50%);
 }
+
+.hide-me {
+  visibility: visible;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+
+.showhim:hover .hide-me{
+  opacity: 0;
+}
