@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .main-img {
+      object-fit: contain;
+    }
+
+    .container-bg-green {
+        padding-bottom: 0.5em!important;
+    }
+  }
+
+@media (min-width: 768px) {
+    .main-img {
+        object-fit: cover;
+        height:100%!important;
+    }
+
+    .container-main-img {
+        height: 70vh;
+        margin-top:-52vh;
+    }
+
+    .container-bg-green {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .margin-neg {
+        margin-top:-15vh;
+    }
+}

@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+    .main-img {
+      object-fit: contain;
+    }
+
+    .container-bg-green {
+        padding-bottom: 0.5em!important;
+    }
+
+    .mt-10vh {
+        margin-top:5vh;
+    }
+
+    .height-img-globe {
+        object-fit: cover!important;
+        height:55vh;
+    }
+
+    .no-p {
+        padding:0!important;
+    }
+  }
+
+@media (min-width: 768px) {
+    .main-img {
+        object-fit: cover;
+        height:100%!important;
+    }
+
+    .container-main-img {
+        height: 70vh;
+        margin-top:-52vh;
+    }
+
+    .container-bg-green {
+        height: 60vh;
+    }
+
+    .mt-10vh {
+        margin-top:10vh;
+    }
+
+    .height-img-globe {
+        height:75vh;
+    }
+}

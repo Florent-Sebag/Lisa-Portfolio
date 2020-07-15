@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .main-img {
+      object-fit: contain;
+    }
+
+    .container-bg-green {
+        padding-bottom: 0.5em!important;
+    }
+
+    .img-col {
+        object-fit: contain!important;
+    }
+
+    .height-33 {
+        height:33vh!important;
+    }
+  }
+
+@media (min-width: 768px) {
+    .main-img {
+        object-fit: cover;
+        height:100%!important;
+    }
+
+    .container-main-img {
+        height: 70vh;
+        margin-top:-52vh;
+    }
+
+    .container-bg-green {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .img-absolute {
+        height: 55vh;
+        vertical-align: middle;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0%,-55%);
+    }
+}
