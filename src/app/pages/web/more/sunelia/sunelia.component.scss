@@ -1,0 +1,12 @@
+@media (max-width: 992px) {
+    .cover-Imd {
+        object-fit: cover;
+    }
+  }
+
+@media (min-width: 992px) {
+    .contain-md {
+        object-fit: contain;
+        width:auto!important;
+    }
+}
