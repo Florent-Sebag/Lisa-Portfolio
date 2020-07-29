@@ -59,3 +59,21 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+@font-face {
+  font-family: garamont;
+  src: url(assets/fonts/Arnhem.otf);
+}
+
+@font-face {
+  font-family: futura;
+  src: url(assets/fonts/FuturaStd-Light.otf);
+}
+
+.font-garamont {
+  font-family: garamont;
+}
+
+.font-futura {
+  font-family: futura;
+}
