@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-green {
   background-color: #98b8ae;
 }
@@ -10,6 +14,10 @@
 
 .font-white {
   color: white;
+}
+
+.font-menu {
+  color:#fff!important;
 }
 
 .futura-font {
@@ -34,4 +42,46 @@
 
 .font-size-xsmall {
   font-size:0.8rem;
+}
+
+.showhim {
+  cursor: pointer;
+}
+
+.show-me {
+  background-color: rgba(152, 184, 174, 0.85);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+
+.showhim:hover .show-me{
+  visibility: visible;
+  opacity: 1;
+}
+
+.div-absolute-anim {
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: garamont;
+  src: url(assets/fonts/Arnhem.otf);
+}
+
+@font-face {
+  font-family: futura;
+  src: url(assets/fonts/FuturaStd-Light.otf);
+}
+
+.font-garamont {
+  font-family: garamont;
+}
+
+.font-futura {
+  font-family: futura;
 }
